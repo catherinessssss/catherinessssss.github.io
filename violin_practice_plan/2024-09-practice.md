@@ -1,6 +1,6 @@
 ---
 layout: practice
-title: "學琴日誌"
+title: "練琴日誌"
 permalink: violin_practice_plan/september
 date: "Sep 2024, Week 1"
 specific_data: 0901~0908
