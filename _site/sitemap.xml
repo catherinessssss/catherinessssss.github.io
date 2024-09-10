@@ -5,9 +5,6 @@
 <lastmod>2021-09-01T00:00:00+08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/violin_practice_plan/september</loc>
-</url>
-<url>
 <loc>http://localhost:4000/404/</loc>
 </url>
 <url>
@@ -15,5 +12,14 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/violin_practice_plan/september/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/violin_practice_plan/september/week1/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/violin_practice_plan/september/week2/</loc>
 </url>
 </urlset>

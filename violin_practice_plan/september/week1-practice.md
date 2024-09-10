@@ -1,11 +1,13 @@
 ---
 layout: practice
-title: "練琴日誌"
+title: "朽木練琴日誌"
 permalink: violin_practice_plan/september
 date: "Sep 2024, Week 1"
 specific_data: 0901~0908
+permalink: /violin_practice_plan/september/week1/
 ---
 
+<a href="{{ '/violin_practice_plan/september/' | relative_url }}">Back to September Plan</a>
 
 #### 01 Sep
 ##### 今日练琴內容 (總時長: 22分鐘)：
@@ -369,3 +371,5 @@ specific_data: 0901~0908
 ##### 明日練琴安排
 
 - 上課
+
+<a href="{{ '/violin_practice_plan/september/' | relative_url }}">Back to September Plan</a>
