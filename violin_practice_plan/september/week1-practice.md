@@ -1,7 +1,6 @@
 ---
 layout: practice
 title: "朽木練琴日誌"
-permalink: violin_practice_plan/september
 date: "Sep 2024, Week 1"
 specific_data: 0901~0908
 permalink: /violin_practice_plan/september/week1/

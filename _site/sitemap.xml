@@ -17,9 +17,15 @@
 <loc>http://localhost:4000/violin_practice_plan/september/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/salted_fish_routine/september/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/violin_practice_plan/september/week1/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/violin_practice_plan/september/week2/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/salted_fish_routine/september/week2/</loc>
 </url>
 </urlset>
