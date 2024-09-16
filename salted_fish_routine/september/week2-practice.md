@@ -140,7 +140,7 @@ specific_data: 0909~0915
 ##### 今日完成
    - 練琴 - 1h
    - 爬樓 - 35 mins
-   - 維修 + 清理磨豆機 🧙‍♂️🧙‍♂️🧙‍♂️ - 2h （我太強了。。。。
+   - 維修 + 清理磨豆機 🧙‍♂️🧙‍♂️🧙‍♂️ - 2h （天呐，我太強了。。。。
    - 訂好新加坡酒店 - 1h
    - 換床單 - 10 mins
    - Facial - 2h
@@ -152,3 +152,11 @@ specific_data: 0909~0915
    - 清洗咖啡機 - 30mins
    - 吸塵 拖地 洗衣服 - 30 mins
    - 練琴 - 90 mins
+   - 别人的歌 - 34% - 30 mins
+   - 运动 - 70 mins
+     - 力量(背) 30mins 
+     - 爬坡 40 mins
+   - 精读 36%：Gonzalez, Manuel F., and John R. Aiello. **"More than meets the ear: Investigating how music affects cognitive task performance."** Journal of Experimental Psychology: Applied 25.3 (2019): 431.
+
+---
+<a href="{{ '/salted_fish_routine/september/' | relative_url }}">Back to September Schedule</a>
