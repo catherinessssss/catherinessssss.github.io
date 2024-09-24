@@ -36,7 +36,7 @@ specific_data: 0916~0922
   - ~~精讀100% + notes~~
   - 想法 paper 
   - LLM paper
-  - 練琴
+  - ~~練琴~~
   - 運動
   - WSET 30 mins
   - Patent application form
@@ -49,6 +49,108 @@ specific_data: 0916~0922
    - 閱讀
      - 查拉图拉特斯如是说 - 37%
      - 別人的歌 - 34.9%
-   - 
+   - 練琴 60 mins
+  
+##### 复盘
+
+
+  - 昨天练力量太累了，今天订的运动时间结果刚好聊天错过了
+  - 至少精读了一篇文章
+
+---
+
+##### 17 Sep
+
+##### 今日計劃
+
+  
+  - 精讀LLM paper
+  - Patent application form
+  - 想法 paper
+  - ~~閱讀~~
+  - ~~小提琴课~~
+  - 運動
+  - WSET 30 mins
+
+
+##### 今日完成了
+   - 從起床到學校 - 2.5h
+   - 閱讀
+     - 查拉图拉特斯如是说 - 38%
+     - 別人的歌 - 37%
+   - 小提琴课
   
 
+---
+
+##### 18 Sep
+
+##### 今日計劃
+
+  SLEEP
+
+
+---
+
+##### 19 Sep
+
+##### 今日計劃
+
+  - ~~Patent application form~~
+  - ~~Chatbot Development~~
+  - 想法 paper
+  - 閱讀
+  - ~~小提琴~~
+  - ~~運動~~
+  - WSET 30 mins
+
+
+##### 今日完成了
+   - Patent application form 50%
+   - Chatbot Development
+   - 小提琴
+   - 運動
+  
+
+
+##### 20 Sep
+
+##### 今日計劃
+
+  - ~~Patent application form~~
+  - 想法 paper
+  - 閱讀
+  - 小提琴
+  - 運動
+  - WSET 30 mins
+
+
+##### 今日完成了
+   - Patent application form 100%
+   - 小提琴
+   - 運動
+  
+
+
+##### 21 Sep
+
+##### 今日完成了
+ -  徐佳瑩演唱會
+ -  裝櫃子 50%
+-  
+
+
+
+##### 22 Sep
+
+##### 今日完成了
+ -  裝櫃子 100%
+ -  運動
+ -  小提琴
+ -  Facial
+ -  換床單
+ -  Pubmed爬蟲
+
+
+
+  
