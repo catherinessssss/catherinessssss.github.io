@@ -43,11 +43,31 @@ specific_data: 0923~0929
 
 
 ##### 26 Sept
+
+
+
+##### 今日完成了
+ -  小提琴 
+ -  progress report
+ -  屯門中學bug fix 
+ -  联系了PAUL中学老师
+ -  運動 - 50mins
+ -  WEST 複習 
+
+
+##### 27 Sept
+
+##### 今日完成了
+ -  WEST Level 2 高强度複習 - 考試
+ -  联系了Pastel公司/Patrick
+ -  組會
+
+
+##### 27 Sept
+
 ##### TODO
  - 找Problem 無敵想做
- - Mobile patent application form 次無敵不想做
- - WEST 複習 URGENT..............
  - Automatic Music Transcription 看完
-
-
+-  閱讀
+-  運動 - 50mins
 ---
