@@ -50,7 +50,7 @@ specific_data: 0923~0929
  -  小提琴 
  -  progress report
  -  屯門中學bug fix 
- -  联系了PAUL中学老师
+ -  联系PAUL中学老师
  -  運動 - 50mins
  -  WEST 複習 
 
@@ -63,11 +63,24 @@ specific_data: 0923~0929
  -  組會
 
 
-##### 27 Sept
+##### 28 Sept
+
+##### 今日完成了
+- 部署DMP (还差确认DB)
+- Automatic Music Transcription 60%
+- 閱讀
+- 運動 - 45mins
+
+
 
 ##### TODO
- - 找Problem 無敵想做
+ - Problem 
  - Automatic Music Transcription 看完
+ - AI-Based Affective Music Generation Systems: A Review of Methods and Challenges
+ - 洗咖啡机
 -  閱讀
--  運動 - 50mins
+-  運動
+-  
+
+
 ---
