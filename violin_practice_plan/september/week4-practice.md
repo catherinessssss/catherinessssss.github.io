@@ -67,6 +67,15 @@ permalink: /violin_practice_plan/september/week4/
 * Sevcik - 10 分鐘 
 * Minuet in G - 10分鐘 
 * Minuet - 15分鐘 
+* 
+----
+
+#### 29 Sept (總時長: 75分鐘)
+* 調音 - 5 分鐘
+* 音階 - 25 分鐘 
+* Sevcik - 15 分鐘 
+* Minuet in G - 15分鐘 
+* Minuet - 15分鐘 
 
 ----
 

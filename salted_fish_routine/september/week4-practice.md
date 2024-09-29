@@ -44,8 +44,6 @@ specific_data: 0923~0929
 
 ##### 26 Sept
 
-
-
 ##### 今日完成了
  -  小提琴 
  -  progress report
@@ -70,17 +68,29 @@ specific_data: 0923~0929
 - Automatic Music Transcription 60%
 - 閱讀
 - 運動 - 45mins
+- 换床单
+- 练琴 - 60mins
 
+
+##### 29 Sept
+
+##### 今日完成了
+- Facial - 70mins
+- 练琴 75 mins
+- 部署DMP 确认DB - 120mins
+- 運動 50mins
+- 北欧机票 12.21-1.04 🛫
+- Automatic Music Transcription - 70%
 
 
 ##### TODO
- - Problem 
+ - 洗咖啡机
+ - Mus Problem 
+ - Med Problem
  - Automatic Music Transcription 看完
  - AI-Based Affective Music Generation Systems: A Review of Methods and Challenges
- - 洗咖啡机
 -  閱讀
 -  運動
--  
 
 
 ---
