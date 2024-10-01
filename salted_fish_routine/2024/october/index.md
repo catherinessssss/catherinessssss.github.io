@@ -1,7 +1,7 @@
 ---
 layout: fish
 title: "October Schedule"
-permalink: salted_fish_routine/2024/october/week1
+permalink: salted_fish_routine/2024/october/
 ---
 
 <a href="{{ '/salted_fish_routine/2024/' | relative_url }}">Back</a>
