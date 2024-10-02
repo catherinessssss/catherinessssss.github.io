@@ -75,10 +75,13 @@ tbody tr:nth-child(odd) {
 -  運動
 
 
-|  **日期**  | **任務**                          | **目標**  | **進度**  | **復盤** |
-| :----: | :---------------------------- | :---: | :---: | :--- |
-| 01 Oct | 洗咖啡机                      |       | ✔️  |      |
-|        | 练琴 |   36mins    |   ✔️   |      |
-|        | PubMed Abstract 調研 |       |   ✔️   |      |
-|        | Med LLM Survey Challenges Part |       |   ✔️   |      |
-
+| **日期** | **任務**                       | **目標** | **進度** | **復盤** |
+| :------: | :----------------------------- | :------: | :------: | :------- |
+|  01 Oct  | 洗咖啡机                       |          |    ✔️     |          |
+|          | 练琴                           |  36mins  |    ✔️     |          |
+|          | PubMed Abstract 調研           |          |    ✔️     |          |
+|          | Med LLM Survey Challenges Part |          |    ✔️     |          |
+|  02 Oct  | PAUL school Bug fix            | 120mins  |    ✔️     |          |
+|          | 清电脑存储空间                 |  50mins  |    ✔️     |          |
+|          | ssh server                     |  50mins  |    ✔️     |          |
+|          | PubMed Abstract Download(WIP)  |  60mins  |    ✔️     |          |
