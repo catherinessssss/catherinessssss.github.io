@@ -66,22 +66,40 @@ tbody tr:nth-child(odd) {
 </style>
 
 ##### TODO
- - NLP abstract counting
- - Mus Problem 
- - Med Problem
- - Automatic Music Transcription 看完
+ - ~~NLP abstract counting~~
+ - Mus Problem
+ - ~~Med Problem~~
+ - PubMed Auto-Search Tool Dev  
+ - ~~Automatic Music Transcription 看完~~ 
  - AI-Based Affective Music Generation Systems: A Review of Methods and Challenges
 -  閱讀
 -  運動
+-  
+
+##### Deliverable output
+<a href="{{ '/paper_notes/music/#2' | relative_url }}"> Automatic Music Transcription   - Summarization </a>
 
 
-| **日期** | **任務**                       | **目標** | **進度** | **復盤** |
-| :------: | :----------------------------- | :------: | :------: | :------- |
-|  01 Oct  | 洗咖啡机                       |          |    ✔️     |          |
-|          | 练琴                           |  36mins  |    ✔️     |          |
-|          | PubMed Abstract 調研           |          |    ✔️     |          |
-|          | Med LLM Survey Challenges Part |          |    ✔️     |          |
-|  02 Oct  | PAUL school Bug fix            | 120mins  |    ✔️     |          |
-|          | 清电脑存储空间                 |  50mins  |    ✔️     |          |
-|          | ssh server                     |  50mins  |    ✔️     |          |
-|          | PubMed Abstract Download(WIP)  |  60mins  |    ✔️     |          |
+| **日期** | **週幾** | **任務**                                | **類型** | **目標/耗時** | **進度** | **復盤** |
+| :------: | :------: | :-------------------------------------- | :------- | :------------ | :------: | :------- |
+|  01 Oct  |   Tue    | 洗咖啡机                                | 🪅        | 🧊             |    ✔️     |          |
+|          |          | 练琴                                    | 🎶        | 🧊             |    ✔️     |          |
+|          |          | PubMed Abstract 調研                    | 👩‍🚀        |               |    ✔️     |          |
+|          |          | Med LLM Survey Challenges Part          | 🤠        |               |    ✔️     |          |
+|  02 Oct  |   Wed    | PAUL school Bug fix                     | 👩‍🚀        | 🧊🧊🧊🧊          |    ✔️     |          |
+|          |          | 清电脑存储空间                          | 👩‍🚀        | 🧊🧊            |    ✔️     |          |
+|          |          | ssh server                              | 👩‍🚀        | 🧊🧊            |    ✔️     |          |
+|          |          | PubMed Abstract Download(WIP)           | 👩‍🚀        | 🧊🧊            |    ✔️     |          |
+|          |          | 運動 爬樓 257kcal                       | 💪        | 🧊🫧            |    ✔️     |          |
+|  03 Oct  |   Thur   | PubMed Abstract Download(Baseline Done) | 👩‍🚀        |               |    ✔️     |          |
+|          |          | Weekly Progress Report - Med Problem    | 🤠        | 🧊🧊            |    ✔️     |          |
+|          |          | Reading  - <别人的歌> 46%               | 📖        |               |    ✔️     |          |
+|          |          | Automatic Music Transcription           | 🤠        | 90%           |          |          |
+|          |          | 卡普松與蒂博代大提琴及鋼琴演奏會        | 🎶        | 🧊🧊🧊🧊🧊🧊        |    ✔️     |          |
+|  04 Oct  |   Fri    | PubMed Abstract Download(Updates Done)  | 👩‍🚀        |               |    ✔️     |          |
+|          |          | 組會 + n個項目會                        | 👩‍🚀        |               |    ✔️     |          |
+|          |          | 運動 爬樓 256kcal                       | 💪        | 🧊🫧            |    ✔️     |          |
+|  05 Oct  |   Sat    | PubMed Auto-Search Tool Dev             | 👩‍🚀        |               |          |          |
+|          |          | Reading  - <查拉图拉特斯如是说> 41%     | 📖        |      🧊         |    ✔️     |          |
+|          |          | Automatic Music Transcription           | 🤠        | 🧊🧊🧊🧊          |    ✔️     |          |
+|          |          | Automatic Music Transcription   - Summarization       | 🤠        | 🧊🧊          |    ✔️     |          |

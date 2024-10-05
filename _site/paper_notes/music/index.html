@@ -31,7 +31,7 @@
   </head>
 
   <body>
-    <div id="main" role="main" class="container">
+    <div id="main" role="main" class="container" style="max-width: 80%">
       <h1>Paper notes</h1>
       <h3>  </h3>
       <h2 id="1-gonzalez-manuel-f-and-john-r-aiello-more-than-meets-the-ear-investigating-how-music-affects-cognitive-task-performance-journal-of-experimental-psychology-applied-253-2019-431">1. Gonzalez, Manuel F., and John R. Aiello. <strong>“More than meets the ear: Investigating how music affects cognitive task performance.”</strong> Journal of Experimental Psychology: Applied 25.3 (2019): 431.</h2>
@@ -99,10 +99,49 @@
   </li>
 </ul>
 
+<hr />
+
+<h2 id="2-benetos-emmanouil-et-al-automatic-music-transcription-an-overview-ieee-signal-processing-magazine-361-2018-20-30">2. Benetos, Emmanouil, et al. “Automatic music transcription: An overview.” IEEE Signal Processing Magazine 36.1 (2018): 20-30.</h2>
+
+<p>This paper focuses on the transcription of polyphonic music—a complex mixture of multiple simultaneous sound sources from pitched instruments and voices. Automatic Music Transcription (AMT) is recognized as a transformative technology with significant potential for both economic and societal benefits, including:</p>
+<ul>
+  <li><strong>Music Education</strong>: Facilitating automatic instrument tutoring.</li>
+  <li><strong>Music Creation</strong>: Capturing improvisations and providing automatic accompaniments.</li>
+  <li><strong>Music Production</strong>: Enhancing content visualization and editing capabilities.</li>
+  <li><strong>Music Search and Musicology</strong>: Enabling indexing based on specific musical elements like melody or rhythm and detailed analysis of nonnotated music, such as jazz improvisations.</li>
+</ul>
+
+<hr />
+<p><strong>Challenges and Open Problems in AMT</strong>:</p>
+<ul>
+  <li>Inffering musical attributes (e.g., pitch) from the mixture signal is an extremely underdetermined problem.</li>
+  <li>For NN-based approaches:
+    <ul>
+      <li>Only a few, small annotated data sets available, and these are often subject to severe biases.</li>
+      <li>Adaptability to new acoustic conditions.</li>
+    </ul>
+  </li>
+  <li>Creation of context-specific AMT systems for multiple instruments.(such as given prior knowledge music style, instrument, …)</li>
+  <li>The discrepancies in musical assumptions between Western and non-Western traditions, such as variations in octave frequency ranges and the limited availability of non-Western music data.</li>
+  <li>Creation of a robust music transcription system that supports both pitched and unpited sound.</li>
+  <li>The existing metrics for evaluating music transcription do not always align with human musical perception. For example, the presence of an extra note can be a more critical error than a missing note, and out-of-tone errors may be penalized more severely than in-tone ones.
+    <ul>
+      <li>❗ <strong>Lack of perceptually relevant evaluation metrics</strong> ❗ for AMT and the creation of evaluation metrics for notation-level transcription.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p><strong>Basic Knowledge</strong>:</p>
+
+<p>Musical note is usually characterized by three elements: pitch, onset time, and offset time.
+THe beginning of a note(or attack phase) might have entirely different spectral properties than the central part(decay phase). How to model uch relationship?</p>
+
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
+      <div class="container" >
         <footer class="footer">
           
 
