@@ -9,6 +9,27 @@ permalink: salted_fish_routine/2024/october/
 # 🐟🐠🐟
 
 ## Objective
+🗹🗵☐
+
+### 學業上
+* ☐ Research Proposal
+* ☐ Traditional Chinese Medical Research Problem
+  * ☐Survey topic decide
+  * ☐PPT
+
+
+* ☐ Music-related Reserach Problem
+* ☐投1
+* ☐雅思報名
+
+
+
+### 生活上
+* ☐Fitness 5 days a week
+  * ✔️ Week1
+* ☐ Fasting 2 days a week
+* ☐ Reading 30 mins * 5 times a week
+* ☐ 54kg before 25th Oct
 
 
 
