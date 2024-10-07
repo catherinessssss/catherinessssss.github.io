@@ -1,6 +1,6 @@
 ---
 layout: fish
-title: "October Schedule"
+title: "CC October's Life"
 permalink: salted_fish_routine/2024/october/
 ---
 
@@ -42,3 +42,5 @@ permalink: salted_fish_routine/2024/october/
 
 # 🎏
 - [Week 1 (1001~1006)]({{ '/salted_fish_routine/2024/october/week1' | relative_url }})
+- [Week 2 (1007~1013)]({{ '/salted_fish_routine/2024/october/week2' | relative_url }})
+

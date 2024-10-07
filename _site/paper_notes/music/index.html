@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Salted Fish Routine</title>
 
-        <meta charset="utf-8" />
+<head>
+  <title>Salted Fish Routine</title>
+
+      <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
@@ -19,22 +20,32 @@
     <meta property="twitter:title" content="Paper notes" />
     
 
-    <!--[if lt IE 9]>
+  <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-    <!-- <link rel="alternate" type="application/rss+xml" title="Xiaoyin Li, Catherine - I am currently a Research Assistant with the Department of Computing, The Hong Kong Polytechnic University, Hong Kong, China. Before that, I received the M.Sc degree from the Hong Kong Baptist University. My research interests includes natural language processing and computer music." href="/feed.xml" /> -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <!-- <link rel="alternate" type="application/rss+xml" title="Xiaoyin Li, Catherine - I am currently a Research Assistant with the Department of Computing, The Hong Kong Polytechnic University, Hong Kong, China. Before that, I received the M.Sc degree from the Hong Kong Baptist University. My research interests includes natural language processing and computer music." href="/feed.xml" /> -->
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  <style>
+    #chart-container {
+      /* position: relative; */
+      height: 400px;
+      overflow: hidden;
+    }
+  </style>
+</head>
 
-  <body>
-    <div id="main" role="main" class="container" style="max-width: 80%">
-      <h1>Paper notes</h1>
-      <h3>  </h3>
-      <h2 id="1-gonzalez-manuel-f-and-john-r-aiello-more-than-meets-the-ear-investigating-how-music-affects-cognitive-task-performance-journal-of-experimental-psychology-applied-253-2019-431">1. Gonzalez, Manuel F., and John R. Aiello. <strong>“More than meets the ear: Investigating how music affects cognitive task performance.”</strong> Journal of Experimental Psychology: Applied 25.3 (2019): 431.</h2>
+<body>
+  <div id="main" role="main" class="container" style="max-width: 80%">
+    <h1>Paper notes</h1>
+    <h3> </h3>
+
+    <div id="chart-container"></div>
+
+    <h2 id="1-gonzalez-manuel-f-and-john-r-aiello-more-than-meets-the-ear-investigating-how-music-affects-cognitive-task-performance-journal-of-experimental-psychology-applied-253-2019-431">1. Gonzalez, Manuel F., and John R. Aiello. <strong>“More than meets the ear: Investigating how music affects cognitive task performance.”</strong> Journal of Experimental Psychology: Applied 25.3 (2019): 431.</h2>
 
 <p>This paper explores how music affects task performance based on three factors: the type of music (simple or complex), the task complexity (simple or complex), and the listener’s preference for external stimulation (introvert or extravert). Results show that music generally impairs complex task performance but complex music aids simple tasks. Preferences for external stimulation influence these effects: introverts benefit from music during complex tasks, while extraverts experience impaired performance, particularly with complex tasks. Volume also plays a role, with introverts performing better with soft music and extraverts with loud music on simple tasks.</p>
 
@@ -138,29 +149,118 @@
 <p>Musical note is usually characterized by three elements: pitch, onset time, and offset time.
 THe beginning of a note(or attack phase) might have entirely different spectral properties than the central part(decay phase). How to model uch relationship?</p>
 
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+      </footer>
     </div>
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container" >
-        <footer class="footer">
-          
+  
 
+</body>
 
+<script src="https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js"></script>
+<script>
+  const dom = document.getElementById('chart-container');
+  const myChart = echarts.init(dom, null, {
+    renderer: 'canvas',
+    useDirtyRect: false
+  });
+  var app = {};
 
+  var option;
 
+  const data = [["2024-10-01", 57.4, '-'], ["2024-10-02", '-', 51], ["2024-10-04", '-', 37], ["2024-10-05", 57.2, 46], ["2024-10-06", 56.8, 40], ["2024-10-07", 56.6, '-']]
 
+  const dateList = data.map(function (item) {
+    return item[0];
+  });
+  const valueList = data.map(function (item) {
+    return item[1];
+  });
+  const fitnessList = data.map(function (item) {
+    return item[2];
+  });
 
+  option = {
+    // Make gradient line here
+    visualMap: [
+      {
+        show: false,
+        type: 'continuous',
+        seriesIndex: 0,
+        min: 45,
+        max: 60
+      },
+    ],
+    title: [
+      {
+        left: 'center',
+        text: 'Body Chart'
+      }
+    ],
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: { type: 'shadow' }
+    },
+    xAxis:
+    {
+      data: dateList
+    },
+    yAxis:
+    {
+      type: 'value',
+      min: 35,
+      max: 58,
+      axisLabel: {
+        formatter: '{value} '
+      }
+    },
+    series:[
+    {
+      type: 'line',
+      name: 'Weight',
+      showSymbol: true,
+      symbol: 'circle',
+      connectNulls: true,
+      symbolSize: 10,
+      smooth: true,
+      data: valueList
+    },
+    {
+      name: 'Exercise Time',
+      type: 'line',
+      showSymbol: true,
+      symbol: 'circle',
+      connectNulls: true,
+      symbolSize: 10,
+      smooth: true,
+      data: fitnessList
+    },]
 
+  };
 
+  if (option && typeof option === 'object') {
+    myChart.setOption(option);
+  }
 
+  window.addEventListener('resize', myChart.resize);
+</script>
 
-
-
-        </footer>
-      </div>
-    </div>
-
-    
-
-  </body>
 </html>

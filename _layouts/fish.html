@@ -1,36 +1,136 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Salted Fish Routine</title>
 
-    {% include meta.html %}
+<head>
+  <title>Salted Fish Routine</title>
 
-    <!--[if lt IE 9]>
+  {% include meta.html %}
+
+  <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/images/favicon-32x32.png">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> -->
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  <style>
+    #chart-container {
+      /* position: relative; */
+      height: 400px;
+      overflow: hidden;
+    }
+  </style>
+</head>
 
-  <body>
-    <div id="main" role="main" class="container" style="max-width: 80%">
-      <h1>{{ page.title }}</h1>
-      <h3>{{ page.date }}  {{page.specific_data}}</h3>
-      {{ content }}
+<body>
+  <div id="main" role="main" class="container" style="max-width: 80%">
+    <h1>{{ page.title }}</h1>
+    <h3>{{ page.date }} {{page.specific_data}}</h3>
+
+    <div id="chart-container"></div>
+
+    {{ content }}
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
     </div>
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container" >
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+  {% include analytics.html %}
+</body>
 
-    {% include analytics.html %}
-  </body>
+<script src="https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js"></script>
+<script>
+  const dom = document.getElementById('chart-container');
+  const myChart = echarts.init(dom, null, {
+    renderer: 'canvas',
+    useDirtyRect: false
+  });
+  var app = {};
+
+  var option;
+
+  const data = [["2024-10-01", 57.4, '-'], ["2024-10-02", '-', 51], ["2024-10-04", '-', 37], ["2024-10-05", 57.2, 46], ["2024-10-06", 56.8, 40], ["2024-10-07", 56.6, '-']]
+
+  const dateList = data.map(function (item) {
+    return item[0];
+  });
+  const valueList = data.map(function (item) {
+    return item[1];
+  });
+  const fitnessList = data.map(function (item) {
+    return item[2];
+  });
+
+  option = {
+    // Make gradient line here
+    visualMap: [
+      {
+        show: false,
+        type: 'continuous',
+        seriesIndex: 0,
+        min: 45,
+        max: 60
+      },
+    ],
+    title: [
+      {
+        left: 'center',
+        text: 'Body Chart'
+      }
+    ],
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: { type: 'shadow' }
+    },
+    xAxis:
+    {
+      data: dateList
+    },
+    yAxis:
+    {
+      type: 'value',
+      min: 35,
+      max: 58,
+      axisLabel: {
+        formatter: '{value} '
+      }
+    },
+    series:[
+    {
+      type: 'line',
+      name: 'Weight',
+      showSymbol: true,
+      symbol: 'circle',
+      connectNulls: true,
+      symbolSize: 10,
+      smooth: true,
+      data: valueList
+    },
+    {
+      name: 'Exercise Time',
+      type: 'line',
+      showSymbol: true,
+      symbol: 'circle',
+      connectNulls: true,
+      symbolSize: 10,
+      smooth: true,
+      data: fitnessList
+    },]
+
+  };
+
+  if (option && typeof option === 'object') {
+    myChart.setOption(option);
+  }
+
+  window.addEventListener('resize', myChart.resize);
+</script>
+
 </html>
