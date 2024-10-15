@@ -423,6 +423,7 @@ tbody tr:nth-child(odd) {
 <script src="https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js"></script>
 <script>
   const dom = document.getElementById('chart-container');
+
   const myChart = echarts.init(dom, null, {
     renderer: 'canvas',
     useDirtyRect: false
@@ -430,8 +431,20 @@ tbody tr:nth-child(odd) {
   var app = {};
 
   var option;
+  const max_value = 60;
+  const min_value = 45;
 
-  const data = [["2024-10-01", 57.4, '-'], ["2024-10-02", '-', 51], ["2024-10-04", '-', 37], ["2024-10-05", 57.2, 46], ["2024-10-06", 56.8, 40], ["2024-10-07", 56.6, '-']]
+  const data = [
+    ["2024-10-01", 57.4, '-', 0],
+    ["2024-10-02", '-', 51, 0],
+    ["2024-10-04", '-', 37, 0],
+    ["2024-10-05", 57.2, 46, 0],
+    ["2024-10-06", 56.8, 40, 0],
+    ["2024-10-07", 56.6, 46, 0],
+    ["2024-10-08", 56.8, 40, 0],
+    ["2024-10-10", '-', '-', 0],
+    ["2024-10-15", '-', '-', 1500],
+  ]
 
   const dateList = data.map(function (item) {
     return item[0];
@@ -443,6 +456,17 @@ tbody tr:nth-child(odd) {
     return item[2];
   });
 
+
+  const waterList = data.map(function (item) {
+    if (item[3] == 0) {
+      return 0
+    }
+
+    return item[3] / 2000 * (max_value - min_value) + min_value;
+  });
+
+
+
   option = {
     // Make gradient line here
     visualMap: [
@@ -450,8 +474,8 @@ tbody tr:nth-child(odd) {
         show: false,
         type: 'continuous',
         seriesIndex: 0,
-        min: 45,
-        max: 60
+        min: min_value,
+        max: max_value
       },
     ],
     title: [
@@ -462,7 +486,13 @@ tbody tr:nth-child(odd) {
     ],
     tooltip: {
       trigger: 'axis',
-      axisPointer: { type: 'shadow' }
+      axisPointer: { type: 'shadow' },
+      // formatter: function (params) {
+
+      //   return `${params.seriesName} <br />
+      //         ${params.name}: ${params.data.value} (${params.percent}%)<br />
+      //         ${params.data.name1}: ${params.data.value1}`;
+      // }
     },
     xAxis:
     {
@@ -473,31 +503,60 @@ tbody tr:nth-child(odd) {
       type: 'value',
       min: 35,
       max: 58,
-      axisLabel: {
-        formatter: '{value} '
+      // axisLabel: {
+      //   formatter: '{value} '
+      // }
+    },
+    grid: [
+      {
+        left: '0%'
+      },
+      {
+        left: '80%'
       }
-    },
-    series:[
-    {
-      type: 'line',
-      name: 'Weight',
-      showSymbol: true,
-      symbol: 'circle',
-      connectNulls: true,
-      symbolSize: 10,
-      smooth: true,
-      data: valueList
-    },
-    {
-      name: 'Exercise Time',
-      type: 'line',
-      showSymbol: true,
-      symbol: 'circle',
-      connectNulls: true,
-      symbolSize: 10,
-      smooth: true,
-      data: fitnessList
-    },]
+    ],
+    series: [
+      {
+        type: 'line',
+        name: 'Weight',
+        showSymbol: true,
+        symbol: 'circle',
+        connectNulls: true,
+        symbolSize: 10,
+        smooth: true,
+        data: valueList,
+        detail: {
+          valueAnimation: true,
+          formatter: '{value} kg',
+          color: 'inherit'
+        },
+      },
+      {
+        name: 'Exercise Time',
+        type: 'line',
+        showSymbol: true,
+        symbol: 'circle',
+        connectNulls: true,
+        symbolSize: 10,
+        smooth: true,
+        data: fitnessList,
+        detail: {
+          valueAnimation: true,
+          formatter: '{value} mins',
+          color: 'inherit'
+        },
+      },
+      {
+        name: 'Water',
+        type: 'bar',
+        data: waterList,
+        detail: {
+          valueAnimation: true,
+          formatter: '{value} %',
+          color: 'inherit'
+        },
+      },
+    ]
 
   };
 
@@ -506,6 +565,77 @@ tbody tr:nth-child(odd) {
   }
 
   window.addEventListener('resize', myChart.resize);
+
+
+  // const chartDom2 = document.getElementById('water');
+
+
+  // const myChart2 = echarts.init(chartDom2, null, {
+  //   renderer: 'canvas',
+  //   useDirtyRect: false
+  // });
+
+  // var option2;
+
+  // option2 = {
+  //   series: [
+  // {
+  //   type: 'gauge',
+  //   axisLine: {
+  //     lineStyle: {
+  //       width: 30,
+  //       color: [
+  //         [0.3, '#67e0e3'],
+  //         [0.7, '#37a2da'],
+  //         [1, '#fd666d']
+  //       ]
+  //     }
+  //   },
+  //   pointer: {
+  //     itemStyle: {
+  //       color: 'auto'
+  //     }
+  //   },
+  //   axisTick: {
+  //     distance: -30,
+  //     length: 8,
+  //     lineStyle: {
+  //       color: '#fff',
+  //       width: 2
+  //     }
+  //   },
+  //   splitLine: {
+  //     distance: -30,
+  //     length: 30,
+  //     lineStyle: {
+  //       color: '#fff',
+  //       width: 4
+  //     }
+  //   },
+  //   axisLabel: {
+  //     color: 'inherit',
+  //     distance: 40,
+  //     fontSize: 20
+  //   },
+  //   detail: {
+  //     valueAnimation: true,
+  //     formatter: '{value} ml',
+  //     color: 'inherit'
+  //   },
+  //   data: [
+  //     {
+  //       value: 70
+  //     }
+  //   ]
+  // }
+  //   ]
+  // };
+
+  // option2 && myChart2.setOption(option2);
+
+  // window.addEventListener('resize', myChart2.resize);
+
+
 </script>
 
 </html>

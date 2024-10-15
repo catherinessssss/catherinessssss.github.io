@@ -1,6 +1,6 @@
 ---
 layout: fish
-title: "CC October's Life"
+title: "CCの自由賬 - Oct"
 permalink: salted_fish_routine/2024/october/
 ---
 
@@ -14,19 +14,20 @@ permalink: salted_fish_routine/2024/october/
 ### 學業上
 * ☐ Research Proposal
 * ☐ Traditional Chinese Medical Research Problem
-  * ☐Survey topic decide
-  * ☐PPT
+  * ☐ Survey topic decide
+  * ☐ PPT
 
 
 * ☐ Music-related Reserach Problem
-* ☐投1
-* ☐雅思報名
+* ☐ 投1
+* ☐ 雅思報名
 
 
 
 ### 生活上
 * ☐Fitness 5 days a week
   * ✔️ Week1
+  * ✔️ Week2
 * ☐ Fasting 2 days a week
 * ☐ Reading 30 mins * 5 times a week
 * ☐ 54kg before 25th Oct
@@ -43,4 +44,5 @@ permalink: salted_fish_routine/2024/october/
 # 🎏
 - [Week 1 (1001~1006)]({{ '/salted_fish_routine/2024/october/week1' | relative_url }})
 - [Week 2 (1007~1013)]({{ '/salted_fish_routine/2024/october/week2' | relative_url }})
+- [Week 3 (1014~1020)]({{ '/salted_fish_routine/2024/october/week3' | relative_url }})
 
