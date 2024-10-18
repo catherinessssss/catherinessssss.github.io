@@ -81,6 +81,7 @@ tbody tr:nth-child(odd) {
 - 雲仙
 - はなび たいかい
 - 安娜 卡列尼娜 (上) - 22%
+- AI-Based Affective Music Generation Systems: A Review of Methods and Challenges - Methodology
 - 异步FL 调研
 
 
@@ -100,6 +101,6 @@ tbody tr:nth-child(odd) {
 |          |          | AI-Based Affective Music Generation Systems: A Review of Methods and Challenges - Background | 🤠                                                      | 🧊             |          |          |
 |  11 Oct  |   Fri    | Med Problem - Literature Review                                                              | 🤠                                                      | 🧊             |          |          |
 |  12 Oct  |   Sat    | Med Problem - Literature Review                                                              | 🤠                                                      | 🧊🧊            |          |          |
-|          |          | はなび たいかい - たまやー  <img style="display:block" src="{{ '/assets/images/hanabi.jpg'   | relative_url }}" alt="はなび たいかい" width="200px" > | 🪅             |         |     ✔️     |  |
+|          |          | はなび たいかい - たまやー  <img style="display:block" src="{{ '/assets/images/hanabi.jpg'   | relative_url }}" alt="はなび たいかい" width="200px" > | 🪅             |          | ✔️        |  |
 |  13 Oct  |   Sun    | Med Problem - Literature Review                                                              | 🤠                                                      | 🧊🧊            |          |          |
 |          |          | 异步FL 调研                                                                                  | 👩‍🚀                                                      | 🧊🧊            |    ✔️     |          |

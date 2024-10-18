@@ -81,6 +81,7 @@ tbody tr:nth-child(odd) {
 ##### 本週Deliverable output
 * <a href="{{ '/paper_notes/music/#2-benetos-emmanouil-et-al-automatic-music-transcription-an-overview-ieee-signal-processing-magazine-361-2018-20-30' | relative_url }}"> Automatic Music Transcription   - Summarization </a>
 * PubMed的abstract 計算
+* AI-Based Affective Music Generation Systems: A Review of Methods and Challenges  - Introduction
 * 有5天運了動
 * 有2天看了書
 * 有2天練了琴
