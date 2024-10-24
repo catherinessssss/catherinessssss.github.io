@@ -28,6 +28,7 @@ permalink: salted_fish_routine/2024/october/
 * ☐Fitness 5 days a week
   * ✔️ Week1
   * ✔️ Week2
+  * ✔️ Week3
 * ☐ Fasting 2 days a week
 * ☐ Reading 30 mins * 5 times a week
 * ☐ 54kg before 25th Oct
@@ -45,4 +46,5 @@ permalink: salted_fish_routine/2024/october/
 - [Week 1 (1001~1006)]({{ '/salted_fish_routine/2024/october/week1' | relative_url }})
 - [Week 2 (1007~1013)]({{ '/salted_fish_routine/2024/october/week2' | relative_url }})
 - [Week 3 (1014~1020)]({{ '/salted_fish_routine/2024/october/week3' | relative_url }})
+- [Week 4 (1014~1020)]({{ '/salted_fish_routine/2024/october/week4' | relative_url }})
 
