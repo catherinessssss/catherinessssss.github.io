@@ -4,29 +4,15 @@
 <head>
   <title>Salted Fish Routine</title>
 
-      <meta charset="utf-8" />
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-
-    
-    <meta name="description" content="I am currently a Research Assistant with the Department of Computing, The Hong Kong Polytechnic University, Hong Kong, China. Before that, I received the M.Sc degree from the Hong Kong Baptist University. My research interests includes natural language processing and computer music.">
-    <meta property="og:description" content="I am currently a Research Assistant with the Department of Computing, The Hong Kong Polytechnic University, Hong Kong, China. Before that, I received the M.Sc degree from the Hong Kong Baptist University. My research interests includes natural language processing and computer music." />
-    
-    <meta name="author" content="Xiaoyin Li, Catherine" />
-
-    
-    <meta property="og:title" content="2024" />
-    <meta property="twitter:title" content="2024" />
-    
+  {% include meta.html %}
 
   <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="/style.css" />
-  <!-- <link rel="alternate" type="application/rss+xml" title="Xiaoyin Li, Catherine - I am currently a Research Assistant with the Department of Computing, The Hong Kong Polytechnic University, Hong Kong, China. Before that, I received the M.Sc degree from the Hong Kong Baptist University. My research interests includes natural language processing and computer music." href="/feed.xml" /> -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> -->
 
   <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   <style>
@@ -40,50 +26,23 @@
 
 <body>
   <div id="main" role="main" class="container" style="max-width: 80%">
-    <h1>2024</h1>
-    <h3> </h3>
+    <h1>{{ page.title }}</h1>
+    <h3>{{ page.date }} {{page.specific_data}}</h3>
 
     <div id="chart-container"></div>
 
-    <h1>🐟🐠🐟</h1>
-
-<h2 id="objective">Objective</h2>
-
-<h5 id="2025-icde">2025 ICDE</h5>
-
-<iframe src="https://free.timeanddate.com/countdown/i750r7bm/n594/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac909/cpc909/pcfff/tcfff/fs200/szw448/szh189/iso2024-11-26T00:00:00/bo2" allowtransparency="true" frameborder="0" width="312" height="83"></iframe>
-
-<h1 id="-1">🎏</h1>
-<ul>
-  <li><a href="/salted_fish_routine/2024/september">September</a></li>
-  <li><a href="/salted_fish_routine/2024/october">October</a></li>
-  <li><a href="/salted_fish_routine/2024/november">November</a></li>
-</ul>
-
+    {{ content }}
   </div>
 
   <div class="wrapper-footer">
     <div class="container">
       <footer class="footer">
-        
-
-
-
-
-
-
-
-
-
-
-
-
+        {% include svg-icons.html %}
       </footer>
     </div>
   </div>
 
-  
-
+  {% include analytics.html %}
 </body>
 
 <script src="https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js"></script>
@@ -102,24 +61,6 @@
 
   const data = [
     ["2024-10-01", 57.4, '-', 0],
-    ["2024-10-02", '-', 51, 0],
-    ["2024-10-04", '-', 37, 0],
-    ["2024-10-05", 57.2, 46, 0],
-    ["2024-10-06", 56.8, 40, 0],
-    ["2024-10-07", 56.6, 46, 0],
-    ["2024-10-08", 56.8, 40, 0],
-    ["2024-10-10", '-', '-', 0],
-    ["2024-10-15", '-', '-', 2000],
-    ["2024-10-16", 57.5, 45, 1000],
-    ["2024-10-17", 57.2, '-', 3000],
-    ["2024-10-18", 57.0, '-', 1000],
-    ["2024-10-19", 57.5, '-', 2500],
-    ["2024-10-20", 56.2, 45, 1300],
-    ["2024-10-21", 56.8, '-', 1500],
-    ["2024-10-22", 57.5, '-', 1500],
-    ["2024-10-23", '-', '-', '-'],
-    ["2024-10-29", 56.5, '-', 1000],
-    ["2024-10-30", 57.2, '-', 1000],
   ]
 
   const dateList = data.map(function (item) {
