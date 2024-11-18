@@ -36,4 +36,6 @@ permalink: salted_fish_routine/2024/november/
 
 # 🎏
 - [Week 1 (1104~1110)]({{ '/salted_fish_routine/2024/november/week1' | relative_url }})
+- [Week 2 (1111~1118)]({{ '/salted_fish_routine/2024/november/week2' | relative_url }})
+- [Week 3 (1119~1124)]({{ '/salted_fish_routine/2024/november/week3' | relative_url }})
 
