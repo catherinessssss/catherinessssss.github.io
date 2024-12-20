@@ -18,3 +18,4 @@ title: "2024"
 - [September]({{ '/salted_fish_routine/2024/september' | relative_url }})
 - [October]({{ '/salted_fish_routine/2024/october' | relative_url }})
 - [November]({{ '/salted_fish_routine/2024/november' | relative_url }})
+- [December]({{ '/salted_fish_routine/2024/december' | relative_url }})

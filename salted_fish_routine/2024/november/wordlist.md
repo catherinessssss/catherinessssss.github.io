@@ -203,3 +203,112 @@ flask, n, 长颈瓶；烧瓶
 camper, n , 露营者
 
 rim, n, 边，缘
+
+
+
+**List 21**
+
+in accordance with, 按照，依据
+
+envisage, vt, 展望，想象；面对
+
+binoculars, n, 双筒望远镜
+
+glutamate, n, 谷氨酸
+
+spoilage, n, 变质
+
+pull up stakes, 离开，搬家
+
+baron, n, 贵族
+
+sceptical, a, 怀疑的，才艺的
+
+flicker, n/vi, 闪烁；一闪而过
+
+cord, n, 线，带
+
+exhaustion, n, 精疲力尽
+
+indigenous, a, 土产的，本土的
+
+grim, a, 严厉的，可怕的
+
+apparatus, n, 器械；机构
+
+
+**List 22**
+
+aspiration, n, 强烈的愿望，志向
+
+gleam, vi, 闪烁；n, 闪光
+
+rudimentary, a, 基本的；退化的
+
+courtship, n, 求爱或追求
+
+ritual, n, 典礼，例行公事，a, 例行的
+
+stereoscopic, a, 有立体视觉的
+
+turbid, a, 混浊的
+
+rendition, n, 表演，翻译， 视觉效果
+
+perimeter, n, 周长
+
+jerk, v, 使猝然一动，n，急推
+
+horror, n, 害怕
+
+destructive, a, 破坏性的
+
+inclination, n, 爱好，趋势，倾斜
+
+**List 23**
+
+conviction, n, 定罪，确信
+
+acumen, n, 敏锐；精明
+
+heap, n, 堆，大量，v，成堆
+
+installment, n, 分期付款， 一集
+
+ascribe, vt, 把...归因于
+
+literate, a, 有文化的，有读写能力的
+
+ancestral, a, 祖先的；祖传的
+
+desenchantment, n, 失望
+
+acupuncture， n, 针刺疗法，针灸
+
+loath, a, 不情愿的
+
+orthodox, a, 正统的
+
+leap, n, 跳跃，v, 跳
+
+divine, a, 神的，天赐的
+
+strand, n, 缕， 股
+
+whaling, n, 捕鲸
+
+exhilaration, n, 高兴
+
+stale, a, 不新鲜的，沉浮的
+
+snap up 抢购
+
+adolescent, n, 青少年，a, 青春期的
+
+guinea, n, 几尼 货币单位
+
+wedge, n, 楔子, vt, 楔入
+
+
+**List 24**
+

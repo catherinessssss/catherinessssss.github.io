@@ -16,8 +16,8 @@
     <meta name="author" content="Xiaoyin Li, Catherine" />
 
     
-    <meta property="og:title" content="2024" />
-    <meta property="twitter:title" content="2024" />
+    <meta property="og:title" content="CCの自由賬 - December" />
+    <meta property="twitter:title" content="CCの自由賬 - December" />
     
 
   <!--[if lt IE 9]>
@@ -40,25 +40,47 @@
 
 <body>
   <div id="main" role="main" class="container" style="max-width: 80%">
-    <h1>2024</h1>
+    <h1>CCの自由賬 - December</h1>
     <h3> </h3>
 
     <div id="chart-container"></div>
 
-    <h1>🐟🐠🐟</h1>
+    <p><a href="/salted_fish_routine/2024/">Back</a></p>
+
+<h1>🐟🐠🐟</h1>
 
 <h2 id="objective">Objective</h2>
+<p>🗹🗵☐</p>
+
+<h3 id="學業上">學業上</h3>
+<ul>
+  <li>☐ Research Proposal</li>
+  <li>☐ Music-related Reserach Problem</li>
+  <li>☐ 投1</li>
+  <li>☐ 雅思報名</li>
+</ul>
+
+<h3 id="生活上">生活上</h3>
+<ul>
+  <li>☐ Fitness 5 days a week</li>
+  <li>☐ Fasting 2 days a week</li>
+  <li>☐ Reading 30 mins * 5 times a week</li>
+  <li>☐ 54kg before 21th Dec</li>
+</ul>
 
 <h5 id="2025-icde">2025 ICDE</h5>
+<p><strong>ICME (14-12-2024)[date:”dmy”]</strong></p>
+<iframe src="https://free.timeanddate.com/countdown/i750r7bm/n594/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac909/cpc909/pcfff/tcfff/fs200/szw448/szh189/iso2024-12-14T00:00:00/bo2" allowtransparency="true" frameborder="0" width="312" height="85"></iframe>
 
-<iframe src="https://free.timeanddate.com/countdown/i750r7bm/n594/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac909/cpc909/pcfff/tcfff/fs200/szw448/szh189/iso2024-11-26T00:00:00/bo2" allowtransparency="true" frameborder="0" width="312" height="83"></iframe>
+<p><strong>SIGGRAPH (24-01-2025)[date:”dmy”]</strong></p>
+<iframe src="https://free.timeanddate.com/countdown/i750r7bm/n594/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac909/cpc909/pcfff/tcfff/fs200/szw448/szh189/iso2025-01-24T00:00:00/bo2" allowtransparency="true" frameborder="0" width="312" height="85"></iframe>
+
+<p><strong>IJCAI (24-01-2025)[date:”dmy”]</strong></p>
+<iframe src="https://free.timeanddate.com/countdown/i750r7bm/n594/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac909/cpc909/pcfff/tcfff/fs200/szw448/szh189/iso2025-01-24T00:00:00/bo2" allowtransparency="true" frameborder="0" width="312" height="85"></iframe>
 
 <h1 id="-1">🎏</h1>
 <ul>
-  <li><a href="/salted_fish_routine/2024/september">September</a></li>
-  <li><a href="/salted_fish_routine/2024/october">October</a></li>
-  <li><a href="/salted_fish_routine/2024/november">November</a></li>
-  <li><a href="/salted_fish_routine/2024/december">December</a></li>
+  <li><a href="/salted_fish_routine/2024/december/week1">Week 1 (1201~1208)</a></li>
 </ul>
 
   </div>
@@ -98,11 +120,11 @@
   var app = {};
 
   var option;
-  const max_value = 60;
+  const max_value = 100;
   const min_value = 45;
 
   const data = [
-    ["2024-10-01", 57.4, '-', 0],
+  ["2024-10-01", 57.4, '-', 0],
     ["2024-10-02", '-', 51, 0],
     ["2024-10-04", '-', 37, 0],
     ["2024-10-05", 57.2, 46, 0],
@@ -118,9 +140,17 @@
     ["2024-10-20", 56.2, 45, 1300],
     ["2024-10-21", 56.8, '-', 1500],
     ["2024-10-22", 57.5, '-', 1500],
-    ["2024-10-23", '-', '-', '-'],
     ["2024-10-29", 56.5, '-', 1000],
     ["2024-10-30", 57.2, '-', 1000],
+    ["2024-11-04", 57.4, 98, 2000],
+    ["2024-11-05", 57.8, 45, 2000],
+    ["2024-11-05", 57.4, '-', 1500],
+    ["2024-11-18", 57, '-', 2100],
+    ["2024-11-19", 58, 30, 2100],
+    ["2024-11-20", 57.7, 45, 2100],
+    ["2024-11-21", 57.4, '-', 2100],
+    ["2024-11-25", '-', 45, 1500],
+    ["2024-11-26", 57, '-', 0],
   ]
 
   const dateList = data.map(function (item) {
@@ -139,6 +169,7 @@
       return 0
     }
 
+    // return item[3] ;
     return item[3] / 2000 * (max_value - min_value) + min_value;
   });
 
@@ -151,8 +182,8 @@
         show: false,
         type: 'continuous',
         seriesIndex: 0,
-        min: min_value,
-        max: max_value
+        // min: min_value,
+        // max: max_value
       },
     ],
     title: [
@@ -178,8 +209,8 @@
     yAxis:
     {
       type: 'value',
-      min: 35,
-      max: 58,
+      // min: 35,
+      // max: 58,
       // axisLabel: {
       //   formatter: '{value} '
       // }
